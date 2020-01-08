@@ -106,6 +106,7 @@
             <visible>!Skin.HasSetting(DisableClock)</visible>
             <animation effect="slide" start="0" end="-80" time="200" tween="sine" condition="Window.IsVisible(DialogVolumeBar.xml) + ![Window.IsVisible(Home) + !Skin.HasSetting(HomeMulti)]">Conditional</animation>
             <right>view_pad</right>
+            <top>-90</top> <!*>
             <align>right</align>
             <orientation>horizontal</orientation>
             <itemgap>0</itemgap>
